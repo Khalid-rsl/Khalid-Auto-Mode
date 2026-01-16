@@ -27,7 +27,7 @@ echo -e "${B}#${NC}  ${G}    License: MIT - Personal & Non-Commercial Use    ${N
 echo -e "${B}#${NC}  ${C}    See LICENSE file for full legal details         ${NC}    ${B}#${NC}"
 echo -e "${B}############################################################${NC}"
 echo -e "${G}  [+] Status: System Check... [جاري فحص النظام]${NC}"
-echo -e "  [+] Developer: Khalid_RSL | 🦅 High-Vision Tools"
+echo -e "  [+] Developer: Khalid-RSL | 🦅 High-Vision Tools"
 echo -e "${B}------------------------------------------------------------${NC}"
 
 # 1. إعداد الملفات [cite: 6]
