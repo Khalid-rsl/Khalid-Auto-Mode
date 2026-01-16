@@ -44,7 +44,7 @@ Fail-Safe Mode: Dedicated GRUB entry for secure booting and recovery.
 
 1. Clone the repository / تحميل المشروع:
 
-git clone https://github.com/YourUsername/Khalid-Auto-Mode.git
+git clone https://github.com/Khalid-rsl/Khalid-Auto-Mode.git
 
 cd Khalid-Auto-Mode
 
