@@ -49,9 +49,9 @@ sudo chmod +x /usr/local/bin/graphics-switcher
 
 # 3. جلب بيانات النظام [cite: 2, 3]
 echo -e "${C}[3/5]${NC} Fetching System UUID & Kernel... [جلب البيانات]"
-LATEST_VMLINUZ=\$(ls -v /boot/vmlinuz-* | tail -n 1 | xargs basename)
-LATEST_INITRD=\$(ls -v /boot/initrd.img-* | tail -n 1 | xargs basename)
-CURRENT_UUID=\$(grub-probe --target=fs_uuid /)
+LATEST_VMLINUZ=$(ls -v /boot/vmlinuz-* | tail -n 1 | xargs basename)
+LATEST_INITRD=$(ls -v /boot/initrd.img-* | tail -n 1 | xargs basename)
+CURRENT_UUID=$(grub-probe --target=fs_uuid /)
 
 # 4. بناء قائمة الجراب [cite: 1, 4]
 echo -e "${C}[4/5]${NC} Configuring GRUB Menu... [إعداد قائمة الإقلاع]"
